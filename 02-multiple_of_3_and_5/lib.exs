@@ -7,3 +7,17 @@ end
 
 Challenge.solution(10)
 |> IO.inspect
+
+# defmodule Kata do
+#     def descending_order(n) do
+#       n
+#       |> Kernel.to_string()
+#       |> String.split("", trim: true)
+#       |> Enum.sort(:desc)
+#       |> Enum.join
+#       |> String.to_integer
+#     end
+# end
+
+# Kata.descending_order(4235132)
+# |> IO.inspect
