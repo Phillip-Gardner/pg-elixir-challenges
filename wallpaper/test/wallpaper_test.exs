@@ -2,10 +2,6 @@ defmodule WallpaperTest do
   use ExUnit.Case
   doctest Wallpaper
 
-  test "greets the world" do
-    assert Wallpaper.hello() == :world
-  end
-
   test "Basic Test" do
     assert Wallpaper.wallpaper(6.3, 4.5, 3.29) == "sixteen"
     assert Wallpaper.wallpaper(7.8, 2.9, 3.29) == "sixteen"
