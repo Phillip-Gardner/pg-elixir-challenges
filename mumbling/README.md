@@ -1,6 +1,15 @@
 # Mumbling
 
-**TODO: Add description**
+Write a function that mumbles strings.
+
+"ZpglnRxqenU" should be mumbled as "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"
+
+"NyffsGeyylB should be mumbled as "N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Llllllllll-Bbbbbbbbbbb"
+
+"MjtkuBovqrU should also be mumbled as "M-Jj-Ttt-Kkkk-Uuuuu-Bbbbbb-Ooooooo-Vvvvvvvv-Qqqqqqqqq-Rrrrrrrrrr-Uuuuuuuuuuu"
+
+run $ mix test to check if you have the solution!
+
 
 ## Installation
 

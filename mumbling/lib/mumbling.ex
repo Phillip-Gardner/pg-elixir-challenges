@@ -1,17 +1,5 @@
 defmodule Mumbling do
-  @moduledoc """
-  Documentation for `Mumbling`.
-  """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Mumbling.hello()
-      :world
-
-  """
   def accum(s) do
     # your code
     s
