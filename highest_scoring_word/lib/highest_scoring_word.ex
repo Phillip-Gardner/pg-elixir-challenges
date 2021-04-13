@@ -31,7 +31,7 @@ defmodule HighestScoringWord do
     str |> String.split(" ") |> Enum.max_by(fn x -> word_score(x) end)
   end
 
-  defp word_score(word) do
+  def word_score(word) do
     word |> String.to_charlist() |> Enum.reduce(0, fn x, acc -> acc + x - 96 end)
   end
 end
