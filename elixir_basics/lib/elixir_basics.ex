@@ -29,7 +29,20 @@ defmodule ElixirBasics do
     Kernel.tuple_size(tuple)
   end
 
+  # Working with Maps
+
   def create_a_map do
     %{ :lion => "wild", "dog" => "pet", :whale => "fish" }
   end
+
+  def return_atom do
+    animals = %{ :lion => "big cat", "dog" => "pet", :whale => "fish" }
+    animals.lion
+  end
+
+  def add_animal(animal, description) do
+    animals = %{ :lion => "big cat", "dog" => "pet", :whale => "fish" }
+    Map.put(animals, animal, description)
+  end
+
 end

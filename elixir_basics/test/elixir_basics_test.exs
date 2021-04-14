@@ -22,5 +22,8 @@ defmodule ElixirBasicsTest do
 
   test "working with maps" do
     assert Kernel.is_map(ElixirBasics.create_a_map) == true
+    assert ElixirBasics.return_atom == "big cat"
+    assert ElixirBasics.add_animal(:bear, "grizzly") == %{ :lion => "big cat", "dog" => "pet", :whale => "fish", bear: "grizzly" }
   end
+
 end
