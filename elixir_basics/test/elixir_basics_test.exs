@@ -13,4 +13,10 @@ defmodule ElixirBasicsTest do
   test "head and tail should work correctly" do
     assert ElixirBasics.head_tail(["head", "tail", "tail"]) == "The head is head and the tail is tailtail"
   end
+
+  test "working with tuples" do
+    assert ElixirBasics.return_three({1, :two, "three"}, 2) == "three"
+    assert ElixirBasics.insert_three({1, :two, "three"}, :four) == {1, :two, :four}
+    assert ElixirBasics.return_size({1, :two, :four, "three"}) == 4
+  end
 end
