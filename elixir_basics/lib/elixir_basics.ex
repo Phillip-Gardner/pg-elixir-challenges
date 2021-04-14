@@ -26,6 +26,6 @@ defmodule ElixirBasics do
   end
 
   def return_size(tuple) do
-
+    Kernel.tuple_size(tuple)
   end
 end
