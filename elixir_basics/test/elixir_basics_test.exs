@@ -26,4 +26,8 @@ defmodule ElixirBasicsTest do
     assert ElixirBasics.add_animal(:bear, "grizzly") == %{ :lion => "big cat", "dog" => "pet", :whale => "fish", bear: "grizzly" }
   end
 
+  test "working with enums" do
+    assert
+  end
+
 end
