@@ -19,4 +19,8 @@ defmodule ElixirBasicsTest do
     assert ElixirBasics.insert_three({1, :two, "three"}, :four) == {1, :two, :four}
     assert ElixirBasics.return_size({1, :two, :four, "three"}) == 4
   end
+
+  test "working with maps" do
+    assert Kernel.is_map(ElixirBasics.create_a_map) == true
+  end
 end

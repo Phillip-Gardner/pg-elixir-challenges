@@ -28,4 +28,8 @@ defmodule ElixirBasics do
   def return_size(tuple) do
     Kernel.tuple_size(tuple)
   end
+
+  def create_a_map do
+    %{ :lion => "wild", "dog" => "pet", :whale => "fish" }
+  end
 end
